@@ -12,8 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = "A file has been uploaded: $file_name";
         
         // Send the email with the file as an attachment
-        $headers = "From: webmaster@example.com";
-        $headers .= "\r\nReply-To: webmaster@example.com";
+        $headers = "From: samyakmaitre2003@gmail.com";
+        $headers .= "\r\nReply-To: samyakmaitre2003@gmail.com";
         $headers .= "\r\nMIME-Version: 1.0";
         $headers .= "\r\nContent-Type: multipart/mixed; boundary=\"mixedpart\"";
         $message .= "\r\n\r\n--mixedpart\r\n";
