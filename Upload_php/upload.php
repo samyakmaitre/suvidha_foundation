@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($_FILES["file"]["error"] == UPLOAD_ERR_OK) {
         $file = $_FILES["file"]["tmp_name"];
@@ -33,4 +33,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     echo "Invalid request.";
 }
-?>
+?> -->
